@@ -1,7 +1,17 @@
 # AircraftTrafficManagemanetServiceProcess
 
-To run the Project in eclipse, install Tomcat v9.0 and have JRE set to 1.8. 
-
+To run the Project in eclipse:
+ Prerequisite: install Tomcat v9.0 and have JRE set to 1.8. 
+ 
+ Step 1: Download the project for the GitHub link: https://github.com/Nitzin/AircraftTrafficManagemanetServiceProcess
+ Step 2: In Eclipse, File->Open project from file systme and in import source add the downloaded folder.
+ Step 3: Update Build path add following library:
+      1) JRE system lib (1.8)
+      2) Server Runtime (tomcat v9.0)
+      3) JUnit 4
+ 
+ After this you should be all set. 
+  
 Solution as following breakdown:
 Src/airTrafficSystem
 1) AirCraft.java is a data structure for AirCraft.
